@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #dcfce7
+  }
+.baner1 {
+    background-color: #dcfce7;
+    color: #052e16;
+    height: 155px;
+}
+.menu {
+    background-color: #16a34a;
+    color: #052e16;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 70px;
+}
+.produtos {
+    background-color: #dcfce7;
+    color: #052e16;
+    height: 155px;
+}
+.footer {
+    background-color: #dcfce7;
+    color: #052e16;
+    height: 155px;
+}
+
+.menu button{
+    height: 35px;
+    width: auto;
+}
+.menu h1{
+
+    color: orange;
+}

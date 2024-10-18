@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Importando arquivos de CSS do projeto -->
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <link rel="stylesheet" href="src/styles/header.css">
+    <link rel="stylesheet" href="src/styles/home.css">
+    <!-- Importando biblioteca de icones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Importando biblioteca jquery cbn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Catracas</title>
+</head>
+<body>
+    <header>
+        <!-- Menu do site -->
+        <nav id="navbar">
+            <i class="fa-sharp fa-solid fa-shield-halved">STORE</i>
+            <!-- Menu visão navegador -->
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Peça aqui
+            </button>
+            <!-- Botão menu para celular -->
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+        <!-- Menu para celular -->
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+            <button class="btn-default">
+                Peça aqui
+            </button>
+        </div>
+    </header>
+    <!-- Conteudo do site -->
+    <main class="content">
+        <section id="home">
+            <div class="shape"></div> <!--só para dar um formato-->
+            <!-- Chamado para a cação -->
+            <div id="cta">
+                <h1 class="title">
+                    Sua seguranção <span>primeiro</span>
+                </h1>
+                <!-- Descrição -->
+                <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <div id="cta_buttons">
+                    <!-- Botão para os produtos -->
+                    <a href="#" class="btn-default">
+                        Ver produtos
+                    </a>
+                    <!-- Botão para fazer uma chamada telefonica -->
+                    <a href="tel:+5555555555" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (48) 99999-9999
+                    </a>
+                </div>
+                <div class="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+            <div id="banner">
+                <img src="C:\Users\ALUNOS\Desktop\CatracasStore-main\src\images\sem_fundo-removebg-preview (1).png" alt="banner">
+            </div>
+        </section>
+    </main>
+
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
