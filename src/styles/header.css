@@ -1,0 +1,79 @@
+/* Espassamento do menu */
+header {
+  width: 100%;
+  padding: 28px 8%;
+}
+/* Configuração barra de navegação */
+#navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* Configuração Logo */
+#nav_logo {
+  font-size: 24px;
+  color: #064e3b;
+}
+/* Configuração lista de menu */
+#nav_list {
+  display: flex;
+  list-style: none;
+  gap: 48px;
+}
+/* Configuração cada item do menu */
+.nav-item a {
+  text-decoration: none;
+  color: #16a34a;
+  font-weight: 600;
+}
+/* Configuração para o item ativo do menu */
+.nav-item.active a{
+  color: #064e3b;
+  border-bottom: 3px solid aqua;
+}
+/* Botão do menu do celular
+#mobile_btn {
+  display: none;
+} */
+/* Esconde o menu de celunar quando esta 
+   no navegador */
+#mobile_menu,
+#mobile_btn {
+  display: none;
+}
+/* Configuração muda com o tamanho da tela */
+@media screen and (max-width: 1178px) {
+  /* Esconde o menu de navegado quando esta 
+     no celular */
+  #nav_list,
+  #navbar .btn-default {
+    display: none;
+  }
+  /* Configuração do botão de menu celular */
+  #mobile_btn {
+    display: block;
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  /* Configuração para mostrar o menu no celular */
+  #mobile_menu.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* Configuração da lista do menu no celular */
+  #mobile_nav_list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 12px 0px;
+  }
+  /* Configuração dos itens do menu no celular */
+  #mobile_nav_list .nav-item {
+    list-style: none;
+    text-align: center;
+  }
+}
