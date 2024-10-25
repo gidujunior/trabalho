@@ -1,0 +1,16 @@
+footer {
+  /* background-color: linear-gradient(to right top, rgb(187, 247, 208), rgb(34, 197, 94)); */
+  background-color: rgb(34, 197, 94);
+  padding: 20px;
+}
+
+#footer_items {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 8% 24px 8%;
+  align-items: center;
+}
+#copyright {
+  color: #1d1d1d;
+  font-weight: 500;
+}

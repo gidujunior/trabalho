@@ -1,0 +1,58 @@
+#menu{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+
+}
+
+.tar-image {
+  width: 90%;
+}
+
+#turnstiles {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.turnstile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  gap: 18px;
+  width: 25%;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+}
+.tar-description {
+  color: #434343;
+  text-align: center;
+}
+
+.tar-rate i {
+  color: #16a34a;
+}
+
+@media screen and (max-width: 1178px) {
+  #turnstiles {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .turnstile{
+    width: calc(50% - 12px);
+  }
+}
+
+@media screen and (max-width: 600px){
+  .turnstile {
+    width: calc(100% - 12px);
+  }
+  
+}
